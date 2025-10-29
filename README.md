@@ -1,11 +1,14 @@
 # 🧹 Data Cleaner App
 
 A simple yet powerful **data preprocessing web app** built with [Shiny for Python](https://shiny.posit.co/py/).  
+
 It allows users to upload CSV files, clean missing values, transform columns, and download the cleaned dataset — all interactively.
 
 ---
 
 🧠 This project was created as a personal learning exercise during my second year of studying Artificial Intelligence, to practice building maintainable and testable data tools.
+
+---
 
 ## 🚀 Features
 
@@ -72,7 +75,7 @@ Then open your browser at http://localhost:8000
 ---
 
 ## 🧩 Project Structure
-
+```bash
 data_cleaner_app/
 │
 ├── src/
@@ -90,7 +93,7 @@ data_cleaner_app/
 ├── requirements.txt
 ├── README.md
 └── LICENSE
-
+```
 ---
 
 ## 📄 License
