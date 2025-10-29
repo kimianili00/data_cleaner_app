@@ -37,12 +37,16 @@ It allows users to upload CSV files, clean missing values, transform columns, an
 
 All core data utilities are tested with `pytest` to ensure correctness and reliability.
 
-````bash
+```bash
 pytest -v
+```
+---
 
 ✅ All 9 tests passed — including handling of edge cases for missing values and transformations.
 
-🖥️ Run Locally
+---
+
+## 🖥️ Run Locally
 
 1. Clone the repository
 ```bash
@@ -60,12 +64,15 @@ pip install -r requirements.txt
 
 4. Run the app
 python -m src.app
-
+```
+---
 
 Then open your browser at http://localhost:8000
-.
 
-🧩 Project Structure
+---
+
+## 🧩 Project Structure
+
 data_cleaner_app/
 │
 ├── src/
@@ -84,16 +91,18 @@ data_cleaner_app/
 ├── README.md
 └── LICENSE
 
+---
 
-📄 License
+## 📄 License
 
-This project is released under the MIT License
-.
+This project is released under the MIT License.
 
-✨ Author
+---
+
+## ✨ Author
 
 Kimia Nili
 📧 Kimianili00@gmail.com
 💼 [Linkedin](https://www.linkedin.com/in/kimia-nili-826b0038b/)
 🧠 Focused on building clean, maintainable, and test-driven data tools.
-````
+
